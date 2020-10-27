@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+html {
+    font-size: 62.5%; 
+    /* 16 px er standard font-size for html. 16 * 0.625 = 10px (font-size=62.5% af 16px) */
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    background-color: none;
+    width:100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15rem;
+}
+
+h1 {
+    font-family: fleisch-wurst, sans-serif;
+    font-size: 10rem;
+}
+
+p {
+    font-family: naresuan, serif;
+    font-weight: 400;
+    font-size: 2.8rem;
+    z-index: 1000;   
+    justify-content: center;
+}
+
+img {
+    width: 25em;
+    margin-top: 5rem;
+}
